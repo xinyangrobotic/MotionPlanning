@@ -344,6 +344,7 @@ vector<Vector3d> AstarPathFinder::getPath()
     please write your code below
     *      
     */
+
     while(terminatePtr != NULL){
         gridPath.push_back(terminatePtr);
         terminatePtr = terminatePtr->cameFrom;
